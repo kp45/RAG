@@ -25,6 +25,11 @@ Retrieval-Augmented Generation (RAG) system that intelligently processes PDF doc
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
+# Live DEMO
+```
+URL TO ACCESS THE LINK : https://codeshare.io/2EkgDo
+```
+
 ## 📋 Prerequisites
 
 - Python 3.10+
