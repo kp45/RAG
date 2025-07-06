@@ -25,9 +25,17 @@ Retrieval-Augmented Generation (RAG) system that intelligently processes PDF doc
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-# Live DEMO
-```
-URL TO ACCESS THE LINK : https://codeshare.io/2EkgDo
+## 🔗 Live Server Endpoint
+
+**URL:** [https://6309-180-211-111-99.ngrok-free.app](https://6309-180-211-111-99.ngrok-free.app)
+
+You can use this endpoint to test or connect your client-side application.
+
+### 📦 Example (cURL)
+```bash
+curl -X POST https://6309-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What is Medicare?", "k": 5}'
 ```
 
 ## 📋 Prerequisites
