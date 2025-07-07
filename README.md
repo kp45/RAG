@@ -38,6 +38,13 @@ curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -d '{"question": "Are laboratory tests covered by Medicare, and what is the cost", "k": 3}'
 ```
 
+```bash
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What happens if I travel outside the United States with Medicare", "k": 3}'
+```
+
+
 <details>
   <summary>📜 Click to Expand cURL Examples</summary>
 
