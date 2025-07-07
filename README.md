@@ -39,37 +39,38 @@ curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
 ```
 
 <details>
-  <summary>🔄 Scrollable cURL Examples</summary>
+  <summary>📜 Click to Expand cURL Examples (scrollable)</summary>
 
-  <pre>
-  
-  # Example 1
-  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
-    -H "Content-Type: application/json" \
-    -d '{"question": "Are laboratory tests covered by Medicare, and what is the cost", "k": 3}'
+```bash
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "Does Medicare cover prescription drugs?", "k": 3}'
 
-  # Example 2
-  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
-    -H "Content-Type: application/json" \
-    -d '{"question": "What are the eligibility criteria for Medicaid in Texas?", "k": 3}'
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "How much does Medicare pay for doctor visits?", "k": 3}'
 
-  # Example 3
-  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
-    -H "Content-Type: application/json" \
-    -d '{"question": "Does Medicare cover mental health counseling sessions?", "k": 3}'
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What mental health services does Medicare cover?", "k": 3}'
 
-  # Example 4
-  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
-    -H "Content-Type: application/json" \
-    -d '{"question": "Can I get coverage for dental implants under Medicare?", "k": 3}'
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What is the difference between Medicare Part A and Part B?", "k": 3}'
 
-  # Example 5
-  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
-    -H "Content-Type: application/json" \
-    -d '{"question": "What is the process to appeal a denied claim?", "k": 3}'
-  
-  </pre>
-</details>
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "I need surgery. What costs will Medicare cover and what will I pay out of pocket?", "k": 3}'
+
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "Does Medicare cover experimental treatments?", "k": 3}'
+
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What happens if I travel outside the United States with Medicare?", "k": 3}'
+```
+</details> 
 
 
 ## 📋 Prerequisites
