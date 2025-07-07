@@ -46,39 +46,45 @@ curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
 curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
   -d '{"question": "Does Medicare cover prescription drugs?", "k": 3}'
+```
 
 🩺 Example 2
-
+```bash
 curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
   -d '{"question": "How much does Medicare pay for doctor visits?", "k": 3}'
+```
 
 🧠 Example 3
-
+```bash
 curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
   -d '{"question": "What mental health services does Medicare cover?", "k": 3}'
+```
 
 🅰️🅱️ Example 4
-
+```bash
 curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
   -d '{"question": "What is the difference between Medicare Part A and Part B?", "k": 3}'
+```
 
 🏥 Example 5
-
+```bash
 curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
   -d '{"question": "I need surgery. What costs will Medicare cover and what will I pay out of pocket?", "k": 3}'
+```
 
 🧬 Example 6
-
+```bash
 curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
   -d '{"question": "Does Medicare cover experimental treatments?", "k": 3}'
+```
 
 ✈️ Example 7
-
+```bash
 curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
   -d '{"question": "What happens if I travel outside the United States with Medicare?", "k": 3}'
