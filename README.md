@@ -33,9 +33,9 @@ You can use this endpoint to test or connect your client-side application.
 
 ### 📦 Example (cURL)
 ```bash
-curl -X POST https://6309-180-211-111-99.ngrok-free.app/query \
+curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -H "Content-Type: application/json" \
-  -d '{"question": "Are laboratory tests covered by Medicare, and what is the cost", "k": 5}'
+  -d '{"question": "Are laboratory tests covered by Medicare, and what is the cost", "k": 3}'
 ```
 
 ## 📋 Prerequisites
