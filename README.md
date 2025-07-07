@@ -38,6 +38,40 @@ curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
   -d '{"question": "Are laboratory tests covered by Medicare, and what is the cost", "k": 3}'
 ```
 
+<details>
+  <summary>🔄 Scrollable cURL Examples</summary>
+
+  <pre>
+  
+  # Example 1
+  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+    -H "Content-Type: application/json" \
+    -d '{"question": "Are laboratory tests covered by Medicare, and what is the cost", "k": 3}'
+
+  # Example 2
+  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+    -H "Content-Type: application/json" \
+    -d '{"question": "What are the eligibility criteria for Medicaid in Texas?", "k": 3}'
+
+  # Example 3
+  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+    -H "Content-Type: application/json" \
+    -d '{"question": "Does Medicare cover mental health counseling sessions?", "k": 3}'
+
+  # Example 4
+  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+    -H "Content-Type: application/json" \
+    -d '{"question": "Can I get coverage for dental implants under Medicare?", "k": 3}'
+
+  # Example 5
+  curl -X POST https://a847-180-211-111-99.ngrok-free.app/query \
+    -H "Content-Type: application/json" \
+    -d '{"question": "What is the process to appeal a denied claim?", "k": 3}'
+  
+  </pre>
+</details>
+
+
 ## 📋 Prerequisites
 
 - Python 3.10+
