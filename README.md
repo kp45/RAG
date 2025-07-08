@@ -27,7 +27,7 @@ Retrieval-Augmented Generation (RAG) system that intelligently processes PDF doc
 
 ## 🔗 Live Server Endpoint
 
-**URL:** [https://a847-180-211-111-99.ngrok-free.app](https://a847-180-211-111-99.ngrok-free.app)
+**URL:** [https://a847-180-211-111-99.ngrok-free.app](https://a847-180-211-111-99.ngrok-free.app) Not Active Now
 
 You can use this endpoint to test or connect your client-side application.
 
